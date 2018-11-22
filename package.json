@@ -1,0 +1,57 @@
+{
+  "name": "gulp-conflicts",
+  "description": "Detects when a (new) vinyl file is different than an existing file on the file system, and either prompts the user for action, skips the file, or calls a function on the file to determine the action to take.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-conflicts",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gulp-conflicts",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-conflicts/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "conflicts": "^1.0.0",
+    "through2": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^5.2.0",
+    "vinyl-fs": "^3.0.3"
+  },
+  "keywords": [
+    "conflict",
+    "conflicts",
+    "detect",
+    "file",
+    "gulp",
+    "gulpplugin",
+    "plugin",
+    "stream"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
